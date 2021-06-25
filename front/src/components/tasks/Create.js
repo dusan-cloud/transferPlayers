@@ -112,9 +112,15 @@ cheked(e) {
                 <Form.Control
                   value={this.state.igrac.pozicija}
                   name="pozicija"
-                  placeholder="Pozicija"
+                  as="select"
                   onChange={(e) => this.valueInputChanged(e)}
-                />
+                >
+                <option value="">Pozicija</option>
+                <option value="Napadac">Napadac</option>
+                <option value="Vezni">Vezni</option>
+                <option value="Defanzivac">Defanzivac</option>
+                <option value="Golman">Golman</option>
+                </Form.Control>
                 <br />
               </Form.Group>
 
