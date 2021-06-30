@@ -78,7 +78,6 @@ class Create extends React.Component {
 }
 
 cheked(e) {
-    const value = e.target.value;
 
     const checked = e.target.checked;
 
